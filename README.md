@@ -31,22 +31,22 @@ A sample 3D object (`teapot.obj`) is included for demonstration.
 ---
 
 ## Project Structure
-.
-├── CMakeLists.txt
-├── src/
-│ ├── Camera.cc / .hh # Camera & projection system
-│ ├── Mat4x4.cc / .hh # 4x4 matrix math (transformations, projection)
-│ ├── Vector2/3/4.cc / .hh # Vector operations
-│ ├── Object3D.cc / .hh # 3D mesh representation
-│ ├── Triangle.cc / .hh # Triangles (basic rendering unit)
-│ ├── Vertex.cc / .hh # Vertex structure
-│ ├── Pipeline.cc / .hh # Core graphics pipeline (clipping + rasterization)
-│ ├── Engine.cc # Rendering engine entry point
-│ ├── Utils.hh # Helper functions
-│ ├── BS_thread_pool.hh # Thread pool for parallel execution
-│ ├── teapot.obj # Demo 3D model
-│ └── OpenSans-Regular.ttf # Font
-└── README.md
+.  
+├── CMakeLists.txt  
+├── src/  
+│ ├── Camera.cc / .hh # Camera & projection system  
+│ ├── Mat4x4.cc / .hh # 4x4 matrix math (transformations, projection)  
+│ ├── Vector2/3/4.cc / .hh # Vector operations  
+│ ├── Object3D.cc / .hh # 3D mesh representation  
+│ ├── Triangle.cc / .hh # Triangles (basic rendering unit)  
+│ ├── Vertex.cc / .hh # Vertex structure  
+│ ├── Pipeline.cc / .hh # Core graphics pipeline (clipping + rasterization)  
+│ ├── Engine.cc # Rendering engine entry point  
+│ ├── Utils.hh # Helper functions  
+│ ├── BS_thread_pool.hh # Thread pool for parallel execution  
+│ ├── teapot.obj # Demo 3D model  
+│ └── OpenSans-Regular.ttf # Font  
+└── README.md  
 
 ---
 
